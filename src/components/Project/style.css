@@ -1,0 +1,14 @@
+.project{
+    margin: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px grey;
+}
+
+.cardBtn{
+    margin: 5px;
+    box-shadow: 0 0 10px grey;
+}
+
+.cardTitle{
+    margin: 5px;
+}
