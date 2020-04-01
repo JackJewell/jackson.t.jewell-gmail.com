@@ -2,9 +2,9 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "10.16.3",
-    "npm":"6.9.0"
+    "npm": "6.9.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,7 +16,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "NODE_ENV=production react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
