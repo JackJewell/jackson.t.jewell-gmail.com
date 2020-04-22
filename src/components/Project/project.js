@@ -5,10 +5,12 @@ import "./style.css"
 function Project(props) {
   return (
       <div className="card project float-left">
-        <div className="card-body p-0">
-          <img className = "card-img-top" src="https://www.xzero.se/wp-content/uploads/bfi_thumb/xzero-posts-792x350-15-32jmh9vlytn75qicie1y25cz4qok3xazlkrftag4ktwo1pob8.jpg" alt="Card cap"/>
-          <h5 className="card-title cardTitle">{props.name}</h5>
-          <p className="card-text"></p>
+        <img className = "card-img-top" src={props.pic} alt="Card cap"/>
+        <div className="card-body">
+          <h5 className="card-title">{props.name}</h5>
+          <h6>Description:</h6>
+          <hr></hr>
+          <p className="card-text">{props.description}</p>
           <a className = "btn btn-secondary cardBtn" href= {props.link} role = "button">Link</a>
           <a className = "btn btn-secondary cardBtn" href= {props.github} role = "button">Github</a>
         </div>

@@ -5,7 +5,7 @@ import { Col, Row, Container } from "./components/Grid";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import Projects from "./pages/projects"
+import Projects from "./pages/projects/index";
 import './App.css';
 
 function App() {

@@ -21,8 +21,14 @@ body{
   
 }
 
+h1,h2,h3,h4,h5,h6,p,a,li{
+  font-family: 'Noto Serif', serif;
+}
+
 @media only screen and (max-width: 600px) {
   .mainDiv{
     margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }

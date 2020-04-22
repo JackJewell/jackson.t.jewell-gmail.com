@@ -1,6 +1,6 @@
 .project{
     margin: 20px;
-    width: 200px;
+    width: 300px;
     box-shadow: 0 0 10px grey;
 }
 
@@ -12,3 +12,11 @@
 .cardTitle{
     margin: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .project{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 250px;
+    }
+  }
